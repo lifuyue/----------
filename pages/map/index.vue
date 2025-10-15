@@ -56,12 +56,12 @@ const markerLookup = ref<Record<number, string>>({});
 
 const terms = computed<Term[]>(() => contentStore.state.terms);
 
-const emojiMap: Record<string, string> = {
-  'term-changdang-crab': '🦀',
-  'term-boat-banquet': '🚢',
-  'term-zhiqian-fish-lantern': '🐟',
-  'term-lantern-festival-youshan': '🏮',
-  'term-water-street': '🌆',
+const iconMap: Record<string, string> = {
+  'term-changdang-crab': '/static/markers/marker-crab.png',
+  'term-boat-banquet': '/static/markers/marker-boat.png',
+  'term-zhiqian-fish-lantern': '/static/markers/marker-fish.png',
+  'term-lantern-festival-youshan': '/static/markers/marker-lantern.png',
+  'term-water-street': '/static/markers/marker-city.png',
 };
 
 const markers = computed<UniApp.Marker[]>(() => {
@@ -74,19 +74,9 @@ const markers = computed<UniApp.Marker[]>(() => {
         id: markerId,
         latitude: term.location!.lat,
         longitude: term.location!.lng,
-        iconPath: '/static/logo.png',
-        width: 36,
-        height: 36,
-        label: {
-          content: emojiMap[term.id] ?? '📍',
-          color: '#1d4ed8',
-          fontSize: 28,
-          anchorX: 0,
-          anchorY: -20,
-          borderRadius: 12,
-          bgColor: '#ffffff',
-          padding: 4,
-        },
+        iconPath: iconMap[term.id] ?? '/static/markers/marker-city.png',
+        width: 44,
+        height: 44,
         callout: {
           content: term.name.zh,
           color: '#ffffff',
