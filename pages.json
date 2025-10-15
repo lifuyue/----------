@@ -36,20 +36,21 @@
   "tabBar": {
     "color": "#9ca3af",
     "selectedColor": "#1d4ed8",
+    "fontSize": "24px",
     "borderStyle": "white",
     "backgroundColor": "#ffffff",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "词汇",
-        "iconPath": "static/tab-lexicon.png",
-        "selectedIconPath": "static/tab-lexicon-active.png"
+        "text": "🏠首页",
+        "iconPath": "static/tab-blank.png",
+        "selectedIconPath": "static/tab-blank.png"
       },
       {
         "pagePath": "pages/map/index",
-        "text": "地图",
-        "iconPath": "static/tab-map.png",
-        "selectedIconPath": "static/tab-map-active.png"
+        "text": "🔍地图",
+        "iconPath": "static/tab-blank.png",
+        "selectedIconPath": "static/tab-blank.png"
       }
     ]
   },

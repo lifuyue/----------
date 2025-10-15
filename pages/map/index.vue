@@ -56,6 +56,14 @@ const markerLookup = ref<Record<number, string>>({});
 
 const terms = computed<Term[]>(() => contentStore.state.terms);
 
+const emojiMap: Record<string, string> = {
+  'term-changdang-crab': '🦀',
+  'term-boat-banquet': '🚢',
+  'term-zhiqian-fish-lantern': '🐟',
+  'term-lantern-festival-youshan': '🏮',
+  'term-water-street': '🌆',
+};
+
 const markers = computed<UniApp.Marker[]>(() => {
   const lookup: Record<number, string> = {};
   const items =
@@ -69,6 +77,16 @@ const markers = computed<UniApp.Marker[]>(() => {
         iconPath: '/static/logo.png',
         width: 36,
         height: 36,
+        label: {
+          content: emojiMap[term.id] ?? '📍',
+          color: '#1d4ed8',
+          fontSize: 28,
+          anchorX: 0,
+          anchorY: -20,
+          borderRadius: 12,
+          bgColor: '#ffffff',
+          padding: 4,
+        },
         callout: {
           content: term.name.zh,
           color: '#ffffff',
