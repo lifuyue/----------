@@ -1,0 +1,62 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "词汇",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#1d4ed8"
+      }
+    },
+    {
+      "path": "pages/map/index",
+      "style": {
+        "navigationBarTitleText": "文化地图",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#1d4ed8"
+      }
+    },
+    {
+      "path": "pages/term/detail",
+      "style": {
+        "navigationBarTitleText": "词条详情",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/site/detail",
+      "style": {
+        "navigationBarTitleText": "景点详情",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": false
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#9ca3af",
+    "selectedColor": "#1d4ed8",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "词汇",
+        "iconPath": "static/tab-lexicon.png",
+        "selectedIconPath": "static/tab-lexicon-active.png"
+      },
+      {
+        "pagePath": "pages/map/index",
+        "text": "地图",
+        "iconPath": "static/tab-map.png",
+        "selectedIconPath": "static/tab-map-active.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarBackgroundColor": "#1d4ed8",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#f1f5f9",
+    "backgroundTextStyle": "dark"
+  }
+}

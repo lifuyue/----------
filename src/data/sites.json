@@ -1,0 +1,184 @@
+[
+  {
+    "id": "site-lake",
+    "name": {
+      "zh": "长荡湖",
+      "en": "Changdang Lake"
+    },
+    "pinyin": "Chángdàng Hú",
+    "category": "自然",
+    "tags": [
+      "湖泊",
+      "太湖流域",
+      "生态"
+    ],
+    "geo": {
+      "lat": 31.62791,
+      "lng": 119.55104,
+      "address": "江苏 常州（金坛/溧阳）"
+    },
+    "summary": {
+      "zh": "古太湖分化残留湖泊，位于常州金坛与溧阳交界，是区域重要淡水水体。",
+      "en": "A remnant lake of the ancient Taihu system at the Jintan–Liyang boundary of Changzhou; a key freshwater body in the region."
+    },
+    "background": {
+      "zh": "长荡湖又名洮湖、长塘湖，湖水主要来自茅山并向东入滆湖。近年推进生态治理与休闲文旅建设。",
+      "en": "Also known as Taohu/Changtang Lake, it receives inflow from Maoshan and drains east to Gehu Lake; recent years saw ecological restoration and leisure-tourism development."
+    },
+    "media": [
+      {
+        "type": "image",
+        "src": "/static/img/lake-1.jpg",
+        "caption": "长荡湖湖面"
+      }
+    ],
+    "sources": [
+      {
+        "title": "维基百科：洮湖（长荡湖）",
+        "url": "https://zh.wikipedia.org/wiki/%E6%B4%AE%E6%B9%96"
+      }
+    ],
+    "updatedAt": "2025-10-16T00:00:00Z"
+  },
+  {
+    "id": "site-water-street",
+    "name": {
+      "zh": "长荡湖水街",
+      "en": "Changdang Lake Water Street"
+    },
+    "pinyin": "Chángdàng Hú Shuǐ Jiē",
+    "category": "水街/商业",
+    "tags": [
+      "餐船",
+      "夜景",
+      "八鲜宴"
+    ],
+    "geo": {
+      "lat": 31.6295,
+      "lng": 119.5523,
+      "address": "江苏 常州市金坛区 长荡湖旅游度假区"
+    },
+    "summary": {
+      "zh": "以餐饮船与江南水乡建筑群闻名的湖上水街，夜景氛围感十足。",
+      "en": "A lakeside water-street of restaurant boats and Jiangnan-style architecture, renowned for its night scenery."
+    },
+    "background": {
+      "zh": "景区以千米级水街与餐船体验吸引游客，配套栈桥与灯光工程，形成“湖八鲜”美食与夜游动线。",
+      "en": "The kilometer-scale water street and boat dining define the experience, with piers and lighting, featuring the 'Eight Lake Delicacies' night-tour route."
+    },
+    "media": [
+      {
+        "type": "image",
+        "src": "/static/img/water-street.jpg",
+        "caption": "水街夜景"
+      }
+    ],
+    "termId": "term-water-street",
+    "sources": [
+      {
+        "title": "Trip.com：长荡湖旅游度假区概览",
+        "url": "https://hk.trip.com/travel-guide/attraction/changzhou/changdang-lake-tourist-resort-24654521/"
+      },
+      {
+        "title": "常州本地宝：长荡湖水街介绍",
+        "url": "https://m.cz.bendibao.com/tour/46614.shtm"
+      },
+      {
+        "title": "新浪新闻：千米水街报道",
+        "url": "https://news.sina.com.cn/c/2011-11-16/173223476939.shtml"
+      }
+    ],
+    "updatedAt": "2025-12-01T00:00:00Z"
+  },
+  {
+    "id": "site-wetland-park",
+    "name": {
+      "zh": "溧阳长荡湖国家湿地公园",
+      "en": "Liyang Changdang Lake National Wetland Park"
+    },
+    "pinyin": "Lìyáng Chángdàng Hú Guójiā Shīdì Gōngyuán",
+    "category": "湿地/科普",
+    "tags": [
+      "湿地",
+      "科普",
+      "自然教育"
+    ],
+    "geo": {
+      "lat": 31.6169,
+      "lng": 119.5582,
+      "address": "江苏 常州市 溧阳市（长荡湖片区）"
+    },
+    "summary": {
+      "zh": "典型的“过水性、浅水草型”湖泊湿地，兼具休闲观光与科普教育。",
+      "en": "A typical 'through-flowing, shallow macrophyte' lake wetland for leisure and interpretation."
+    },
+    "background": {
+      "zh": "湿地公园面向公众开放，重点打造水上美食、互动娱乐与生态科普板块，形成湖区轻度度假体验。",
+      "en": "Open to the public with focuses on water cuisine, interactive activities and eco-interpretation, shaping a light holiday experience around the lake."
+    },
+    "media": [
+      {
+        "type": "image",
+        "src": "/static/img/wetland-park.jpg",
+        "caption": "湿地景观"
+      }
+    ],
+    "sources": [
+      {
+        "title": "携程：溧阳长荡湖国家湿地公园",
+        "url": "https://gs.ctrip.com/html5/you/sight/liyang598/5068357.html"
+      }
+    ],
+    "updatedAt": "2025-10-16T00:00:00Z"
+  },
+  {
+    "id": "site-youshan",
+    "name": {
+      "zh": "柚山村（放灯节）",
+      "en": "Youshan Village (Floating Lantern Festival)"
+    },
+    "pinyin": "Yòushān Cūn (Fàng Dēng Jié)",
+    "category": "村落/节庆",
+    "tags": [
+      "放灯节",
+      "非遗",
+      "水乡"
+    ],
+    "geo": {
+      "lat": 31.6125,
+      "lng": 119.5238,
+      "address": "江苏 常州市 金坛区 儒林镇 柚山村"
+    },
+    "summary": {
+      "zh": "七夕前后在湖畔举行的放灯节，是传承两百年的水乡民俗。",
+      "en": "A Qixi-season floating-lantern ritual on the lakeshore, a two-century-old waterside folk custom."
+    },
+    "background": {
+      "zh": "2022 年活动在柚山村举办；当地通过生态修复，宕口遗址公园因湖面形似“翡翠之心”走红。放灯节为江苏省级非遗项目，常设民俗展演与夜游活动。",
+      "en": "The 2022 edition took place in Youshan Village. Ecological restoration turned a quarry pit into the 'Emerald Heart' park. The festival is a Jiangsu provincial ICH item with folk performances and night tours."
+    },
+    "media": [
+      {
+        "type": "image",
+        "src": "/static/img/youshan-lantern.jpg",
+        "caption": "柚山放灯节"
+      }
+    ],
+    "termId": "term-lantern-festival-youshan",
+    "sources": [
+      {
+        "title": "中国江苏网：2022 中国·长荡湖放灯节",
+        "url": "https://wm.jschina.com.cn/9656/202208/t20220802_7640735.shtml"
+      },
+      {
+        "title": "常州女性网：放灯节报道",
+        "url": "https://fl.jscz.org.cn/html/fl/2022/PMKHMCHI_0804/69520.html"
+      },
+      {
+        "title": "江苏新闻：柚山村生态修复与“翡翠之心”",
+        "url": "https://jsnews.jschina.com.cn/jsyw/202208/t20220821_3060143.shtml"
+      }
+    ],
+    "updatedAt": "2025-12-01T00:00:00Z"
+  }
+]

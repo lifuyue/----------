@@ -1,0 +1,195 @@
+[
+  {
+    "id": "term-boat-banquet",
+    "name": {
+      "zh": "船宴",
+      "en": "Boat Banquet"
+    },
+    "pinyin": "Chuán Yàn",
+    "tags": [
+      "民俗",
+      "饮食",
+      "湖八鲜"
+    ],
+    "summary": {
+      "zh": "源于清代的水上宴饮民俗，以船为席，配湖鲜与茶点。",
+      "en": "A Qing-era waterside banquet tradition served aboard boats, featuring lake delicacies and tea snacks."
+    },
+    "background": {
+      "zh": "船宴随长荡湖水街夜游兴起而再受关注，常与“湖八鲜”组合为主题餐饮与演艺体验。",
+      "en": "With the rise of the Water Street night tour, the Boat Banquet regained popularity, often paired with the 'Eight Lake Delicacies' for themed dining and performances."
+    },
+    "media": [
+      {
+        "type": "image",
+        "src": "/static/img/boat-banquet.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "title": "《看金坛》：长荡湖船宴",
+        "url": "https://mobile.epaper.routeryun.com/index.php/home/article/index/appkey/294/date/2023-09-11/aid/7824156.html"
+      },
+      {
+        "title": "央视网《消费主张》：水街点亮长荡湖 湖八鲜船宴",
+        "url": "https://tv.cctv.com/2022/09/14/VIDE781DhwMvFBqoDciJQpNo220914.shtml"
+      }
+    ],
+    "updatedAt": "2025-10-16T00:00:00Z"
+  },
+  {
+    "id": "term-zhiqian-fish-lantern",
+    "name": {
+      "zh": "指前鱼灯",
+      "en": "Zhiqian Fish Lantern Dance"
+    },
+    "pinyin": "Zhǐqián Yú Dēng",
+    "tags": [
+      "非遗",
+      "舞蹈",
+      "民俗"
+    ],
+    "summary": {
+      "zh": "以鱼形灯为道具的传统舞蹈，发源于金坛指前镇芦家村。",
+      "en": "A traditional dance using fish-shaped lanterns, originating in Lujia Village, Zhiqian Town, Jintan."
+    },
+    "background": {
+      "zh": "清末碑刻与族谱有记载，历经 120–130 余年传承，现为江苏省级非遗项目，常见于元宵等节庆展演。",
+      "en": "Recorded in late-Qing inscriptions and genealogies; preserved for over 120–130 years and listed as a Jiangsu provincial intangible cultural heritage item."
+    },
+    "media": [
+      {
+        "type": "image",
+        "src": "/static/img/fish-lantern.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "title": "金坛区官网：非遗·指前鱼灯",
+        "url": "https://www.jintan.gov.cn/html/czjt/2022/EPMKQAMB_0707/201054.html"
+      },
+      {
+        "title": "常州发布（新华社江苏）：指前鱼灯报道",
+        "url": "https://js.news.cn/20250211/d9963ab066d8403db1d8d4ad27a00915/c.html"
+      }
+    ],
+    "updatedAt": "2025-10-16T00:00:00Z"
+  },
+  {
+    "id": "term-lantern-festival-youshan",
+    "name": {
+      "zh": "放灯节（柚山村）",
+      "en": "Floating Lantern Festival (Youshan Village)"
+    },
+    "pinyin": "Fàng Dēng Jié (Yòu Shān Cūn)",
+    "tags": [
+      "非遗",
+      "节庆",
+      "水乡"
+    ],
+    "summary": {
+      "zh": "在长荡湖畔柚山村举办的水乡节庆活动，已有近两百年传承。",
+      "en": "A waterside festival in Youshan Village by Changdang Lake, with a tradition spanning nearly two centuries."
+    },
+    "background": {
+      "zh": "放灯节多在七夕前后举行，象征祈愿与祝福，夜间湖畔点灯成景。2009 年“长荡湖柚山放灯节”被列为江苏省级非物质文化遗产代表性项目。近年来活动叠加“爱情地标”等主题，并与乡村旅游、夜经济相结合，形成灯会、展演与市集等综合体验。柚山村结合生态修复打造的“翡翠之心”景观，也成为节庆叙事的重要意象。",
+      "en": "Held around the Qixi season, the ritual symbolizes blessings and hope as lanterns illuminate the lakeshore night. In 2009 it was inscribed as a Jiangsu provincial ICH item. Recent editions blend ‘romance’ themes with rural tourism and night markets, featuring performances and fairs; the ‘Emerald Heart’ landscape, born from ecological restoration, has become an iconic backdrop."
+    },
+    "media": [
+      {
+        "type": "image",
+        "src": "/static/img/youshan-lantern.jpg",
+        "caption": "柚山放灯节（示意图）"
+      }
+    ],
+    "sources": [
+      {
+        "title": "江苏文明网：2022 中国·长荡湖放灯节在金坛柚山村举行（省级非遗、约200年）",
+        "url": "https://wm.jschina.com.cn/9656/202208/t20220802_7640735.shtml"
+      },
+      {
+        "title": "人文常州网：柚山放灯节（省级非遗与“翡翠之心”）",
+        "url": "https://www.renwencz.com/a/lcdt/msms/2022/0802/18162.html"
+      }
+    ],
+    "updatedAt": "2025-12-01T00:00:00Z"
+  },
+  {
+    "id": "term-changdang-crab",
+    "name": {
+      "zh": "长荡湖大闸蟹",
+      "en": "Changdang Lake Chinese Mitten Crab"
+    },
+    "pinyin": "Chángdàng Hú Dàzháxiè",
+    "tags": [
+      "特产",
+      "渔业",
+      "品牌"
+    ],
+    "summary": {
+      "zh": "长荡湖代表性水产品牌，已培育为中国农产品区域公用品牌之一。",
+      "en": "A signature aquatic brand of Changdang Lake, cultivated as a Chinese regional public brand for agricultural products."
+    },
+    "background": {
+      "zh": "常州以品牌建设与故事化传播推动农业品牌体系优化，长荡湖大闸蟹与溧阳青虾等被列为区域公用品牌产品。当地围绕生态养殖、质量追溯与市场拓展开展联动，形成从产地到餐桌的全链条品牌表达。媒体报道显示，蟹业协会等主体推动赛事评优与市场开拓，扩大产区影响力。",
+      "en": "Changzhou has advanced brand building and narrative marketing, with Changdang Lake crabs recognized among regional public agricultural brands. Efforts focus on eco-aquaculture, traceability, and market expansion, articulating a ‘from origin to table’ brand chain. Reports also note associations driving competitions and outreach to broaden the production area’s profile."
+    },
+    "media": [
+      {
+        "type": "image",
+        "src": "/static/img/crab.jpg",
+        "caption": "长荡湖大闸蟹（示意图）"
+      }
+    ],
+    "sources": [
+      {
+        "title": "新华报业网：常州打造农业品牌（含长荡湖大闸蟹为区域公用品牌）",
+        "url": "https://www.xhby.net/content/s66f7c551e4b019ce5659f504.html"
+      },
+      {
+        "title": "常观（常州台）：全国名蟹赛事与产区影响力",
+        "url": "https://sharekcz.cztv.tv/article?id=115642"
+      }
+    ],
+    "updatedAt": "2025-12-01T00:00:00Z"
+  },
+  {
+    "id": "term-water-street",
+    "name": {
+      "zh": "长荡湖水街",
+      "en": "Changdang Lake Water Street"
+    },
+    "pinyin": "Chángdàng Hú Shuǐjiē",
+    "tags": [
+      "水街",
+      "夜游",
+      "美食"
+    ],
+    "summary": {
+      "zh": "以餐船与灯光夜景著称的水上街区，是度假区的核心游线之一。",
+      "en": "A lakeside water-street famed for boat dining and night lights, serving as a core route in the resort area."
+    },
+    "background": {
+      "zh": "媒体早年报道其“千米水街”与秋季美食属性，使之成为蟹季人气目的地。街区以江南水乡建筑群与亲水步道营造夜游氛围，常与船宴、“湖八鲜”等主题体验结合。作为文旅门面的展示窗口，水街承担“内容+场景”的综合叙事功能，连接餐饮、演艺与节庆活动。",
+      "en": "Earlier reports described a ‘kilometer-long water street’ with seasonal food appeal, making it a hotspot during crab season. Jiangnan-style architecture and waterside promenades create night-tour ambience, often paired with boat banquets and ‘Eight Lake Delicacies’. As a showcase frontage, the street integrates content and scene, connecting dining, performances, and festivals."
+    },
+    "media": [
+      {
+        "type": "image",
+        "src": "/static/img/water-street.jpg",
+        "caption": "长荡湖水街夜景（示意图）"
+      }
+    ],
+    "sources": [
+      {
+        "title": "新浪新闻：千米水街成为秋季美食景点",
+        "url": "https://news.sina.com.cn/c/2011-11-16/173223476939.shtml"
+      },
+      {
+        "title": "Trip.com：长荡湖旅游度假区概览（含水街）",
+        "url": "https://hk.trip.com/travel-guide/attraction/changzhou/changdang-lake-tourist-resort-24654521/"
+      }
+    ],
+    "updatedAt": "2025-12-01T00:00:00Z"
+  }
+]
