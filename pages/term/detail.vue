@@ -126,13 +126,13 @@ const openTerm = (id: string) => {
 };
 
 const goToMap = () => {
-  if (!linkedSite.value) return;
-  const app = getApp<{ globalData: { focusSiteId?: string } }>();
+  if (!term.value) return;
+  const app = getApp<{ globalData: { focusTermId?: string } }>();
   if (!app.globalData) {
     // eslint-disable-next-line no-param-reassign
     app.globalData = {};
   }
-  app.globalData.focusSiteId = linkedSite.value.id;
+  app.globalData.focusTermId = term.value.id;
   uni.switchTab({
     url: '/pages/map/index',
   });

@@ -26,6 +26,10 @@ export interface BaseContent {
   id: string;
   name: LocalizedText;
   pinyin?: string;
+  location?: {
+    lat: number;
+    lng: number;
+  };
   tags: string[];
   summary: LocalizedText;
   background: LocalizedText;

@@ -86,6 +86,15 @@ export const useContentStore = defineStore('content', () => {
     return counts;
   });
 
+  const termsWithLocation = computed(() =>
+    state.terms.filter(
+      (term) =>
+        Boolean(term.location) &&
+        typeof term.location?.lat === 'number' &&
+        typeof term.location?.lng === 'number',
+    ),
+  );
+
   const getTermById = (termId: string): Term | undefined =>
     state.terms.find((term) => term.id === termId);
 
@@ -107,6 +116,7 @@ export const useContentStore = defineStore('content', () => {
     hydrate,
     categories,
     tagCloud,
+    termsWithLocation,
     getTermById,
     getSiteById,
     getRelatedTerms,

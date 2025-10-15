@@ -35,7 +35,11 @@
         "url": "https://tv.cctv.com/2022/09/14/VIDE781DhwMvFBqoDciJQpNo220914.shtml"
       }
     ],
-    "updatedAt": "2025-10-16T00:00:00Z"
+    "updatedAt": "2025-10-16T00:00:00Z",
+    "location": {
+      "lat": 31.6295,
+      "lng": 119.5523
+    }
   },
   {
     "id": "term-zhiqian-fish-lantern",
@@ -73,7 +77,11 @@
         "url": "https://js.news.cn/20250211/d9963ab066d8403db1d8d4ad27a00915/c.html"
       }
     ],
-    "updatedAt": "2025-10-16T00:00:00Z"
+    "updatedAt": "2025-10-16T00:00:00Z",
+    "location": {
+      "lat": 31.6205,
+      "lng": 119.52
+    }
   },
   {
     "id": "term-lantern-festival-youshan",
@@ -112,7 +120,11 @@
         "url": "https://www.renwencz.com/a/lcdt/msms/2022/0802/18162.html"
       }
     ],
-    "updatedAt": "2025-12-01T00:00:00Z"
+    "updatedAt": "2025-12-01T00:00:00Z",
+    "location": {
+      "lat": 31.6125,
+      "lng": 119.5238
+    }
   },
   {
     "id": "term-changdang-crab",
@@ -151,7 +163,11 @@
         "url": "https://sharekcz.cztv.tv/article?id=115642"
       }
     ],
-    "updatedAt": "2025-12-01T00:00:00Z"
+    "updatedAt": "2025-12-01T00:00:00Z",
+    "location": {
+      "lat": 31.6255,
+      "lng": 119.545
+    }
   },
   {
     "id": "term-water-street",
@@ -190,6 +206,10 @@
         "url": "https://hk.trip.com/travel-guide/attraction/changzhou/changdang-lake-tourist-resort-24654521/"
       }
     ],
-    "updatedAt": "2025-12-01T00:00:00Z"
+    "updatedAt": "2025-12-01T00:00:00Z",
+    "location": {
+      "lat": 31.6295,
+      "lng": 119.5523
+    }
   }
 ]
