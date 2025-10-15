@@ -52,28 +52,37 @@ const { termsWithLocation } = storeToRefs(contentStore);
 
 const scale = ref(12);
 const activeTermId = ref<string>();
+const markerLookup = ref<Record<number, string>>({});
 
 const terms = computed<Term[]>(() => contentStore.state.terms);
 
-const markers = computed<UniApp.Marker[]>(() =>
-  (termsWithLocation.value ?? []).map((term) => ({
-    id: term.id,
-    latitude: term.location!.lat,
-    longitude: term.location!.lng,
-    iconPath: '/static/logo.png',
-    width: 36,
-    height: 36,
-    callout: {
-      content: term.name.zh,
-      color: '#ffffff',
-      fontSize: 12,
-      borderRadius: 12,
-      bgColor: '#1d4ed8',
-      padding: 6,
-      display: 'BYCLICK',
-    },
-  })),
-);
+const markers = computed<UniApp.Marker[]>(() => {
+  const lookup: Record<number, string> = {};
+  const items =
+    termsWithLocation.value?.map((term, index) => {
+      const markerId = index + 1;
+      lookup[markerId] = term.id;
+      return {
+        id: markerId,
+        latitude: term.location!.lat,
+        longitude: term.location!.lng,
+        iconPath: '/static/logo.png',
+        width: 36,
+        height: 36,
+        callout: {
+          content: term.name.zh,
+          color: '#ffffff',
+          fontSize: 12,
+          borderRadius: 12,
+          bgColor: '#1d4ed8',
+          padding: 6,
+          display: 'BYCLICK',
+        },
+      } as UniApp.Marker;
+    }) ?? [];
+  markerLookup.value = lookup;
+  return items;
+});
 
 const mapCenter = computed(() => {
   if (activeTermId.value) {
@@ -96,13 +105,13 @@ const mapCenter = computed(() => {
 });
 
 const handleMarkerTap = (event: UniApp.MapOnMarkerTapEvent) => {
-  const markerId = event.detail.markerId;
-  const marker =
-    typeof markerId === 'string'
-      ? markerId
-      : markers.value[Number(markerId)]?.id ?? markers.value[0]?.id;
-  if (marker) {
-    openTerm(marker);
+  const rawId = event.detail.markerId;
+  const numericId = typeof rawId === 'string' ? Number(rawId) : Number(rawId);
+  const termId =
+    markerLookup.value[numericId] ??
+    termsWithLocation.value?.[numericId ? numericId - 1 : 0]?.id;
+  if (termId) {
+    openTerm(termId);
   }
 };
 
